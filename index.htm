@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://savvytime.com/converter/utc-to-ist -->
+<html lang="en" style="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- <link href="./time-converter_files/converter.min.css" as="style" rel="stylesheet"> -->
+
+
+<link rel="stylesheet" href="./time-converter.css">
+
+
+   
+    <script async="" src="./time-converter.js"></script>
+    </head>
+
+<body class="fixed-header">
+    
+        </div>
+        <div class="container" style="height: auto !important;">
+            <div class="row" style="height: auto !important;">
+                <div class="content col-sm-12 col-md-9" style="height: auto !important; min-height: 0px !important;">
+                    <div id="converter" class="panel panel-default converter-panel"
+                        style="overflow: visible; height: auto !important; min-height: 0px !important;">
+                        <div class="panel-footer">
+                            <div class="add-time-wrap row">
+                                <div class="search-result list col-xs-12 col-sm-5">
+                                    <div class="add-tz-box">
+                                        <input id="time-search" class="time-search form-control" type="search"
+                                            placeholder="Add Time Zone, City or Town" autocomplete="off">
+                                        <span class="i-wrap icon-wrap">
+                                            <svg class="icon svg-icon add-tz-icon" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 26 26">
+                                                <path
+                                                    d="M22 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-6.5v6.5c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-6.5h-6.5c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h6.5v-6.5c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5v6.5h6.5c0.828 0 1.5 0.672 1.5 1.5z">
+                                                </path>
+                                            </svg>
+                                            <svg class="icon icon-svg icon-spinner hide"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                                <path
+                                                    d="M32 16c-0.040-2.089-0.493-4.172-1.331-6.077-0.834-1.906-2.046-3.633-3.533-5.060-1.486-1.428-3.248-2.557-5.156-3.302-1.906-0.748-3.956-1.105-5.981-1.061-2.025 0.040-4.042 0.48-5.885 1.292-1.845 0.809-3.517 1.983-4.898 3.424s-2.474 3.147-3.193 4.994c-0.722 1.846-1.067 3.829-1.023 5.79 0.040 1.961 0.468 3.911 1.254 5.694 0.784 1.784 1.921 3.401 3.316 4.736 1.394 1.336 3.046 2.391 4.832 3.085 1.785 0.697 3.701 1.028 5.598 0.985 1.897-0.040 3.78-0.455 5.502-1.216 1.723-0.759 3.285-1.859 4.574-3.208 1.29-1.348 2.308-2.945 2.977-4.67 0.407-1.046 0.684-2.137 0.829-3.244 0.039 0.002 0.078 0.004 0.118 0.004 1.105 0 2-0.895 2-2 0-0.056-0.003-0.112-0.007-0.167h0.007zM28.822 21.311c-0.733 1.663-1.796 3.169-3.099 4.412s-2.844 2.225-4.508 2.868c-1.663 0.646-3.447 0.952-5.215 0.909-1.769-0.041-3.519-0.429-5.119-1.14-1.602-0.708-3.053-1.734-4.25-2.991s-2.141-2.743-2.76-4.346c-0.621-1.603-0.913-3.319-0.871-5.024 0.041-1.705 0.417-3.388 1.102-4.928 0.683-1.541 1.672-2.937 2.883-4.088s2.642-2.058 4.184-2.652c1.542-0.596 3.192-0.875 4.832-0.833 1.641 0.041 3.257 0.404 4.736 1.064 1.48 0.658 2.82 1.609 3.926 2.774s1.975 2.54 2.543 4.021c0.57 1.481 0.837 3.064 0.794 4.641h0.007c-0.005 0.055-0.007 0.11-0.007 0.167 0 1.032 0.781 1.88 1.784 1.988-0.195 1.088-0.517 2.151-0.962 3.156z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="icon converter-menu" data-toggle="collapse"
+                                        data-target="#converter-controls">
+                                        <svg class="icon svg-icon svg-menu" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 30 30">
+                                            <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                               
+                               
+                                <div class="col-xs-12 collapse" id="share-url-area">
+                                    <div class="row share-url-wrap">
+                                        <!-- <div class="col-xs-12">
+                                            </input class="form-control share-url" id="share-url"
+                                                value="https://savvytime.com/converter">
+                                        </div> -->
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="pull-left">
+                                                <label class="checkbox include-time">
+                                                    <input type="checkbox" id="include-time"> Include Time
+                                                </label>
+                                                <div class="input-group timepicker-wrap include-time-box-wrap format12">
+                                                    </input type="text"
+                                                        class="time ampm format12 form-control include-time-box ui-timepicker-input"
+                                                        value=")" data-offset="0" autocomplete="off">
+                                                </div>
+                                                <div
+                                                    class="input-group timepicker-wrap include-time-box-wrap format24 st-hide">
+                                                    </input type="text"
+                                                        class="time ampm format24 form-control include-time-box st-hide ui-timepicker-input"
+                                                        value="" data-offset="0" autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="pull-left">
+                                                <label class="checkbox include-time">
+                                                    <input type="checkbox" id="include-date"> Include Date
+                                                </label>
+                                                <div class="input-group include-time-box-wrap">
+                                                    <div id="share-date-picker" class="input-group date">
+                                                    </input type="text" class="form-control">
+                                                        <span class="input-group-addon">
+                                                            <svg class="icon svg-icon"
+                                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24">
+                                                                <path
+                                                                    d="M8 21.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM8 15.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM16 21.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM8 9.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM16 15.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM24 21.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM16 9.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM24 15.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM24 9.5v-3c0-0.281-0.219-0.5-0.5-0.5h-5c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h5c0.281 0 0.5-0.219 0.5-0.5zM26 4.5v17c0 1.375-1.125 2.5-2.5 2.5h-21c-1.375 0-2.5-1.125-2.5-2.5v-17c0-1.375 1.125-2.5 2.5-2.5h21c1.375 0 2.5 1.125 2.5 2.5z">
+                                                                </path>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body" style="height: auto !important;">
+                            <div id="converter-view" style="height: auto !important;">
+                                <div data-id="utc" class="table-time row">
+                                    <div class="draggable-indicator"><svg viewBox="0 0 16 128">
+                                            <rect x="4" y="4" width="4" height="4"></rect>
+                                            <rect x="4" y="12" width="4" height="4"></rect>
+                                            <rect x="4" y="20" width="4" height="4"></rect>
+                                            <rect x="4" y="28" width="4" height="4"></rect>
+                                            <rect x="4" y="36" width="4" height="4"></rect>
+                                            <rect x="4" y="44" width="4" height="4"></rect>
+                                            <rect x="4" y="52" width="4" height="4"></rect>
+                                            <rect x="4" y="60" width="4" height="4"></rect>
+                                            <rect x="4" y="68" width="4" height="4"></rect>
+                                            <rect x="4" y="76" width="4" height="4"></rect>
+                                            <rect x="4" y="84" width="4" height="4"></rect>
+                                            <rect x="4" y="92" width="4" height="4"></rect>
+                                            <rect x="4" y="100" width="4" height="4"></rect>
+                                            <rect x="4" y="108" width="4" height="4"></rect>
+                                            <rect x="4" y="116" width="4" height="4"></rect>
+                                            <rect x="4" y="124" width="4" height="4"></rect>
+                                            <rect x="12" y="4" width="4" height="4"></rect>
+                                            <rect x="12" y="12" width="4" height="4"></rect>
+                                            <rect x="12" y="20" width="4" height="4"></rect>
+                                            <rect x="12" y="28" width="4" height="4"></rect>
+                                            <rect x="12" y="36" width="4" height="4"></rect>
+                                            <rect x="12" y="44" width="4" height="4"></rect>
+                                            <rect x="12" y="52" width="4" height="4"></rect>
+                                            <rect x="12" y="60" width="4" height="4"></rect>
+                                            <rect x="12" y="68" width="4" height="4"></rect>
+                                            <rect x="12" y="76" width="4" height="4"></rect>
+                                            <rect x="12" y="84" width="4" height="4"></rect>
+                                            <rect x="12" y="92" width="4" height="4"></rect>
+                                            <rect x="12" y="100" width="4" height="4"></rect>
+                                            <rect x="12" y="108" width="4" height="4"></rect>
+                                            <rect x="12" y="116" width="4" height="4"></rect>
+                                            <rect x="12" y="124" width="4" height="4"></rect>
+                                        </svg></div>
+                                    <div class="td-name col-xs-6">
+                                        <div class="time-name-wrap">
+                                            <span class="time-abb">UTC</span>
+                                        </div>
+                                    </div>
+                                    <div class="td-time col-xs-6">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                                                <div class="input-group timepicker-wrap format12">
+                                                    <input type="text"
+                                                        class="time ampm format12 form-control ui-timepicker-input"
+                                                        value="" data-offset="0" autocomplete="off">
+                                                </div>
+                                                <div class="input-group timepicker-wrap format24 st-hide">
+                                                    <input type="text"
+                                                        class="time ampm format24 form-control ui-timepicker-input st-hide"
+                                                        value="" data-offset="0" autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="row">
+                                            <div class="td-name col-xs-6">
+                                                <div class="time-name-wrap">
+                                                    <span class="time-name">Universal Time Coordinated</span>
+                                                </div>
+                                            </div>
+                                            <div class="td-time col-xs-6">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2 no-gutter-right">
+                                                        <div class="name-offset">GMT +0</div>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-4 no-gutter-left">
+                                                        <div class="tz-date">Sat, Aug 26</div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 slider-wrap">
+                                        <div class="slider noUi-target noUi-ltr noUi-horizontal">
+                                          
+                                                <div class="noUi-origin" style="left: 61.0526%;">
+                                              
+                                                </div>
+                                                <div class="noUi-pips noUi-pips-horizontal">
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 0%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 0%;">12am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 4.21053%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 8.42105%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 12.6316%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 12.6316%;">3am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 16.8421%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 21.0526%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 25.2632%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 25.2632%;">6am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 29.4737%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 33.6842%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 37.8947%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 37.8947%;">9am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 42.1053%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 46.3158%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 50.5263%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 50.5263%;">12pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 54.7368%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 58.9474%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 63.1579%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 63.1579%;">3pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 67.3684%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 71.579%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 75.7895%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 75.7895%;">6pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 80%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 84.2105%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 88.421%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 88.421%;">9pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 92.2807%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 96.1403%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 100%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="delete">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                            </path>
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div data-id="ist" class="table-time row">
+                                    <div class="draggable-indicator"><svg viewBox="0 0 16 128">
+                                            <rect x="4" y="4" width="4" height="4"></rect>
+                                            <rect x="4" y="12" width="4" height="4"></rect>
+                                            <rect x="4" y="20" width="4" height="4"></rect>
+                                            <rect x="4" y="28" width="4" height="4"></rect>
+                                            <rect x="4" y="36" width="4" height="4"></rect>
+                                            <rect x="4" y="44" width="4" height="4"></rect>
+                                            <rect x="4" y="52" width="4" height="4"></rect>
+                                            <rect x="4" y="60" width="4" height="4"></rect>
+                                            <rect x="4" y="68" width="4" height="4"></rect>
+                                            <rect x="4" y="76" width="4" height="4"></rect>
+                                            <rect x="4" y="84" width="4" height="4"></rect>
+                                            <rect x="4" y="92" width="4" height="4"></rect>
+                                            <rect x="4" y="100" width="4" height="4"></rect>
+                                            <rect x="4" y="108" width="4" height="4"></rect>
+                                            <rect x="4" y="116" width="4" height="4"></rect>
+                                            <rect x="4" y="124" width="4" height="4"></rect>
+                                            <rect x="12" y="4" width="4" height="4"></rect>
+                                            <rect x="12" y="12" width="4" height="4"></rect>
+                                            <rect x="12" y="20" width="4" height="4"></rect>
+                                            <rect x="12" y="28" width="4" height="4"></rect>
+                                            <rect x="12" y="36" width="4" height="4"></rect>
+                                            <rect x="12" y="44" width="4" height="4"></rect>
+                                            <rect x="12" y="52" width="4" height="4"></rect>
+                                            <rect x="12" y="60" width="4" height="4"></rect>
+                                            <rect x="12" y="68" width="4" height="4"></rect>
+                                            <rect x="12" y="76" width="4" height="4"></rect>
+                                            <rect x="12" y="84" width="4" height="4"></rect>
+                                            <rect x="12" y="92" width="4" height="4"></rect>
+                                            <rect x="12" y="100" width="4" height="4"></rect>
+                                            <rect x="12" y="108" width="4" height="4"></rect>
+                                            <rect x="12" y="116" width="4" height="4"></rect>
+                                            <rect x="12" y="124" width="4" height="4"></rect>
+                                        </svg></div>
+                                    <div class="td-name col-xs-6">
+                                        <div class="time-name-wrap">
+                                            <span class="time-abb">IST</span>
+                                        </div>
+                                    </div>
+                                    <div class="td-time col-xs-6">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                                                <div class="input-group timepicker-wrap format12">
+                                                    <input type="text"
+                                                        class="time ampm format12 form-control ui-timepicker-input"
+                                                        value="" data-offset="5.5" autocomplete="off">
+                                                </div>
+                                                <div class="input-group timepicker-wrap format24 st-hide">
+                                                    <input type="text"
+                                                        class="time ampm format24 form-control ui-timepicker-input st-hide"
+                                                        value="" data-offset="5.5" autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="row">
+                                            <div class="td-name col-xs-6">
+                                                <div class="time-name-wrap">
+                                                    <span class="time-name">India Standard Time</span>
+                                                </div>
+                                            </div>
+                                            <div class="td-time col-xs-6">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2 no-gutter-right">
+                                                        <div class="name-offset">GMT +5:30</div>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-4 no-gutter-left">
+                                                        <div class="tz-date">Sat, Aug 26</div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 slider-wrap">
+                                        <div class="slider noUi-target noUi-ltr noUi-horizontal"  >
+                                         
+                                                <div class="noUi-origin" style="left: 84.2105%;">
+                                                   
+                                                </div>
+                                                <div class="noUi-pips noUi-pips-horizontal">
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 0%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 0%;">12am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 4.21053%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 8.42105%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 12.6316%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 12.6316%;">3am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 16.8421%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 21.0526%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 25.2632%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 25.2632%;">6am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 29.4737%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 33.6842%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 37.8947%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 37.8947%;">9am</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 42.1053%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 46.3158%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 50.5263%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 50.5263%;">12pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 54.7368%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 58.9474%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 63.1579%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 63.1579%;">3pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 67.3684%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 71.579%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 75.7895%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 75.7895%;">6pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 80%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 84.2105%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large"
+                                                        style="left: 88.421%;"></div>
+                                                    <div class="noUi-value noUi-value-horizontal noUi-value-large"
+                                                        style="left: 88.421%;">9pm</div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 92.2807%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 96.1403%;"></div>
+                                                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-normal"
+                                                        style="left: 100%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="delete">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                            </path>
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                               
+       
+  
+        </script>
+     
+    </section>
+    
+
+</html>
